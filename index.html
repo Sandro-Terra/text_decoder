@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/reset.css">
+    <link rel="stylesheet" href="/assets/styles/style.css">
+    <!-- <link rel="stylesheet" href="./media-query.css"> -->
+    <title>Encriptador de Texto</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            <img class="logoAlura" src="assets/imgs/logoAlura.png" alt="Logo da Alura."> Encriptador de Texto - Challenge Alura/ONE G5
+        </h1>
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" cols="15" rows="4" placeholder="Digite seu texto"></textarea>
+
+            <div class="informacao">
+                <img src="/assets/imgs/information_icon.png" alt="">
+                <h6>Apenas letras minúsculas e sem acento</h6>
+            </div>
+
+            <div class="botoes">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+
+            </div>
+        </section>
+
+        <section class="messageBox">
+            <textarea class="message" cols="13" rows="9"></textarea>
+            <button class="btn-copiar">Copiar</button>
+        </section>
+
+    </main>
+    <script src="script.js" type="application/javascript"></script>
+    
+    <footer class="footer">
+        <ul class="links">
+            <li>Developed by Sandro Terra</li>
+            <li><a href="https://github.com/Sandro-Terra/text_decoder">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/sandro-terra/">LinkedIn</a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>

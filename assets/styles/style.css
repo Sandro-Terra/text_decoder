@@ -1,0 +1,140 @@
+* {
+  background: #E5E5E5;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;font-size: 2rem;
+  line-height: 150%;
+}
+header {
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 150%;
+  max-width: 100%;
+  color: #0A3871;
+}
+
+.logoAlura {
+  margin-right: 1.8rem;
+  margin-left: 1.8rem;
+  padding-top: 1.8rem;
+  width: 2%;
+}
+
+main {
+  display: flex;
+  margin-bottom: 35rem;
+  margin-left: 5rem;
+}
+
+.text-area {
+  border: none;
+  
+  color: #0A3871;
+  margin-top: 5.6rem;
+  margin-left: 1.8rem;
+  text-transform: lowercase;
+}
+
+::placeholder { color: #0A3871; }
+  .text-area:focus {
+    outline: none;
+  }
+.messageBox {
+  display: flex;
+  min-height: 1.25rem;
+  position: relative;
+  margin-left: 1.6rem;
+  margin-top: 1.25rem;
+}
+.message {
+  display: flex;
+  background: white;
+  background-image: url(/assets/imgs/High\ quality\ products\ 1\ 1.png);
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 1.5rem;
+  color: #0A3871;
+  height: fit-content;
+  width: fit-content;
+  margin-left: 0.001rem;
+  margin-top: 1.25rem;
+  padding-left: 0.1rem;
+  position: absolute;
+}
+.message:focus {
+  outline: none;
+}
+.botoes {
+  display: flex;
+  margin-top: 2rem;
+}
+.btn-encriptar {
+  background: #D8DFE8;
+  border: 1px solid #0A3871;
+  border-radius: 1.5rem;
+  color: #0A3871;
+  cursor: pointer;
+  height: 4.18rem;
+  margin-right: 1.2rem;
+  width: 20.5rem;
+}
+
+.btn-desencriptar {
+  background-color: #0A3871;
+  border: 1px solid #0A3871;
+  border-radius: 1.5rem;
+  color: white;
+  cursor: pointer;
+  height: 4.18rem;
+  width: 20.5rem;
+}
+
+.btn-copiar {
+  border: 0.06rem solid #0A3871;
+  border-radius: 1.5rem;
+  color: #0A3871;
+  cursor: pointer;
+  height: 4.18rem;
+  position: absolute;
+  top: 21.8rem;
+  left: 100.3rem;
+  width: 21rem;
+}
+
+
+.informacao {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  color: #495057;
+  gap: 0.8rem;
+  font-size: 1.3rem;
+  padding: 1rem 0rem;;
+}
+.informacao img {
+    width: 0.875rem;
+    height: 0.875rem;
+    margin-top: 1rem;
+}
+.footer {
+  display: block;
+	text-align: center;
+	padding: 2.5rem 0;
+}
+.footer li {
+  display: inline-block;
+  margin-right: 0.625rem;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+	color:#0A3871;
+	font-weight: 400;
+	font-size: 0.75rem;
+}
+.footer li a {
+  text-decoration:none;
+}
+.footer li a:hover {
+    color: #C78C19;
+    cursor: pointer;
+  }
