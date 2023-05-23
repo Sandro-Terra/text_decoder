@@ -3,22 +3,11 @@ const mensagem = document.querySelector('.message');
 const btnCopiar = document.querySelector('.btn-copiar');
 const mensagemCriptografada = document.querySelector('stringEncriptada');
 
-
-
-
-/* As "chaves" de criptografia que utilizaremos são:
-A letra "e" é convertida para "enter"
-A letra "i" é convertida para "imes"
-A letra "a" é convertida para "ai"
-A letra "o" é convertida para "ober"
-A letra "u" é convertida para "ufat" */
-
 function btnEncriptar() {
     const textoEncriptado = encriptar(textArea.value);
     mensagem.value = textoEncriptado;
     textArea.value = "";
 }
-
 
 function encriptar(stringEncriptada) {
     mensagem.value = "";
@@ -37,6 +26,15 @@ function encriptar(stringEncriptada) {
         }
     }
     return stringEncriptada;
+}  limpaImagem();
+
+function limpaImagem() {
+    const btnEncriptar = document.querySelector('.btn-encriptar');
+
+    btnEncriptar.addEventListener('click', function () {
+        const mensagem = document.querySelector('.message');
+        mensagem.style.backgroundImage = 'none';
+    });
 }
 
 function btnDesencriptar() {
