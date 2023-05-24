@@ -26,6 +26,7 @@ function encriptar(stringEncriptada) {
         }
     }
     return stringEncriptada;
+
 }  limpaImagem();
 
 function limpaImagem() {
@@ -85,6 +86,7 @@ function limpaImagem() {
     btnEncriptar.addEventListener('click', function () {
         const mensagem = document.querySelector('.message');
         mensagem.style.backgroundImage = 'none';
+        textArea.value = "";
     });
 }
 
