@@ -50,7 +50,7 @@ main {
 .message {
   display: flex;
   background: white;
-  background-image: url(/assets/imgs/High\ quality\ products\ 1\ 1.png);
+  background-image: url(assets/imgs/High\ quality\ products\ 1\ 1.png);
   background-repeat: no-repeat;
   border: none;
   border-radius: 1.5rem;

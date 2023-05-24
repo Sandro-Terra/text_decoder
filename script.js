@@ -6,7 +6,7 @@ const mensagemCriptografada = document.querySelector('stringEncriptada');
 function btnEncriptar() {
     const textoEncriptado = encriptar(textArea.value);
     mensagem.value = textoEncriptado;
-    textArea.value = "";
+    textArea.value = "";   
 }
 
 function encriptar(stringEncriptada) {
@@ -36,6 +36,7 @@ function limpaImagem() {
         const mensagem = document.querySelector('.message');
         mensagem.style.backgroundImage = 'none';
     });
+    
 }
 
 function btnDesencriptar() {
@@ -65,18 +66,19 @@ function desencriptar(stringDesencriptada) {
 btnCopiar.addEventListener('click', () => {
     mensagem.select();
     mensagem.setSelectionRange(0, 99999);
-  
+
     try {
-      const sucesso = document.execCommand('copy');
-      if (sucesso) {
-        alert('O texto criptografado foi copiado!');
-      } else {
-        throw new Error('A cópia falhou');
-      }
+        const sucesso = document.execCommand('copy');
+        if (sucesso) {
+            alert('O texto criptografado foi copiado!\nCole o texto no campo digite seu texto para descriptografar.');
+        } else {
+            throw new Error('A cópia falhou');
+        }
     } catch (err) {
-      console.error('Erro ao copiar o texto:', err);
+        console.error('Erro ao copiar o texto:', err);
     }
-  });
+}
+);
 
   limpaImagem();
 
