@@ -23,7 +23,6 @@ header {
 
 main {
   display: flex;
-  margin-bottom: 35rem;
   margin-left: 5rem;
 }
 
@@ -102,7 +101,6 @@ main {
   width: 21rem;
 }
 
-
 .informacao {
   display: flex;
   overflow: hidden;
@@ -117,11 +115,14 @@ main {
     height: 0.875rem;
     margin-top: 1rem;
 }
+
 .footer {
   display: block;
 	text-align: center;
 	padding: 2.5rem 0;
+  margin-top: auto;
 }
+
 .footer li {
   display: inline-block;
   margin-right: 0.625rem;
