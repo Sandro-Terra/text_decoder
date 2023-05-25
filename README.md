@@ -8,7 +8,7 @@
 
 <p>Projeto realizado para atender o desafio proposto no curso Alura Latam ONE (Oracle Next Education).</p>
 
-<img src="Screen_project.png" alt="Printscreen da tela da página desenvolvida">
+<img src="assets/imgs/Screen_project.png" alt="Printscreen da tela da página desenvolvida">
 
 <h2>Requisitos:</h2>
 
