@@ -27,3 +27,6 @@
 <h2>Uso</h2>
 
 <p>Para utilizar o decodificador, acesse-o através do seguinte <a href="https://sandro-terra.github.io/text_decoder/">link</a> ou nesse outro <a href="https://textdecoderalura.netlify.app/">aqui</a>.</p>
+
+<img src="assets/imgs/badge_one.png" alt="Badge da ONE">
+
